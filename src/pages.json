@@ -1,0 +1,143 @@
+{
+	"pages": [{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "广外北校信息交流平台",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/profile/index",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path": "pages/market/index",
+			"style": {
+				"navigationBarTitleText": "闲置交易"
+			}
+		},
+		{
+			"path": "pages/intern/index",
+			"style": {
+				"navigationBarTitleText": "实习共享"
+			}
+		},
+		{
+			"path": "pages/express/index",
+			"style": {
+				"navigationBarTitleText": "快递代取"
+			}
+		},
+		{
+			"path": "pages/other/index",
+			"style": {
+				"navigationBarTitleText": "其他"
+			}
+		},
+		{
+			"path": "pages/otherDetail/index",
+			"style": {
+				"navigationBarTitleText": "详情"
+			}
+		},
+		{
+			"path": "pages/expressDetail/index",
+			"style": {
+				"navigationBarTitleText": "详情"
+			}
+		},
+		{
+			"path": "pages/internDetail/index",
+			"style": {
+				"navigationBarTitleText": "详情"
+			}
+		},
+		{
+			"path": "pages/marketDetail/index",
+			"style": {
+				"navigationBarTitleText": "详情"
+			}
+		},
+		{
+			"path": "pages/newMarket/index",
+			"style": {
+				"navigationBarTitleText": "新建闲置交易"
+			}
+		},
+
+		{
+			"path": "pages/newExpress/index",
+			"style": {
+				"navigationBarTitleText": "新建快递代取"
+			}
+		},
+
+		{
+			"path": "pages/newIntern/index",
+			"style": {
+				"navigationBarTitleText": "新建实习共享"
+			}
+		},
+
+		{
+			"path": "pages/newOther/index",
+			"style": {
+				"navigationBarTitleText": "新建其他"
+			}
+		},
+		{
+			"path": "pages/Mypublished/index",
+			"style": {
+				"navigationBarTitleText": "我发布的",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/Mycollection/index",
+			"style": {
+				"navigationBarTitleText": "我收藏的",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/chat/index",
+			"style": {
+				"navigationBarTitleText": "发起对话"
+			}
+		},
+		{
+			"path": "pages/Mychat/index",
+			"style": {
+				"navigationBarTitleText": "我的消息"
+			}
+		}
+	],
+	"tabBar": {
+		"color": "#888888",
+		"borderStyle": "white",
+		"selectedColor": "#a04f64",
+		"backgroundColor":"#FFFFFF",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/images/h9.png",
+				"selectedIconPath": "static/images/h12.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/profile/index",
+				"iconPath": "static/images/m3.png",
+				"selectedIconPath": "static/images/m2.png",
+				"text": "我的"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTitleText": "广外北校信息交流平台",
+		"navigationBarTextStyle": "white",
+		"navigationBarBackgroundColor": "#b7472a",
+		"backgroundColor": "#F8F8F8",
+		"navigationStyle": "custom"
+	}
+}
